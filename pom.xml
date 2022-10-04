@@ -29,6 +29,14 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
+        
+	<repositories>
+           <repository>
+             <id>nexus</id>
+             <name>walmart-remote-repo</name>
+             <url>http://13.234.34.170:8081/repository/fb-group/</url>
+           </repository>
+        </repositories>
 
 	<dependencies>
 		
